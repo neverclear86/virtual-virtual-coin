@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev-server": "deno run --allow-read --allow-write --allow-net vvc-server/main.ts"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v4.0.8/mod.ts"
+  }
+}
