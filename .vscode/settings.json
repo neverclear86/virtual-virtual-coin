@@ -4,5 +4,6 @@
   ],
   "deno.enable": true,
   "editor.inlayHints.enabled": "off",
-  "deno.config": "./deno.jsonc"
+  "deno.config": "./deno.jsonc",
+  "deno.unstable": true
 }
