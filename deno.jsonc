@@ -1,8 +1,19 @@
 {
   "tasks": {
-    "dev-server": "deno run --allow-read --allow-write --allow-net vvc-server/main.ts"
+    "start": "deno run --allow-env --allow-read --allow-write --allow-net vvc-cli/main.ts"
   },
   "imports": {
-    "hono": "https://deno.land/x/hono@v4.0.8/mod.ts"
+    "@std/collections": "jsr:@std/collections@^0.218.2",
+    "@std/fs": "jsr:@std/fs@^0.218.2",
+    "@std/path": "jsr:@std/path@^0.218.2",
+    "cliffy": "https://deno.land/x/cliffy@v1.0.0-rc.3/command/mod.ts",
+    "dir/data_dir": "https://deno.land/x/dir@1.5.2/data_dir/mod.ts",
+    "nostr-tools": "npm:nostr-tools@2.3.1"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": false,
+    "indentWidth": 2,
+    "useTabs": false
   }
 }
